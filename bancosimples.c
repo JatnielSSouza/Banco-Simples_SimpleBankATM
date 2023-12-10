@@ -5,6 +5,8 @@
 #include <windows.h>//#include <unistd.h> para sistemas unix (linux ou mac)
 #include <time.h>
 
+//Rev01
+
 /* Projeto 3 - Banco */
 
 //Structs(registros) - Tipos complexos - Objetos:
@@ -60,6 +62,8 @@ return 0;
 //Implementação das funções:
 void menu(){
 	int opcao = 0;
+	system("cls");
+
 	printf("=============================================\n");
 	printf("=================ATM=========================\n");
 	printf("================Banco========================\n");
