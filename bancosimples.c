@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <locale.h>
 #include <string.h>
-#include <windows.h>//#include <unistd.h> para sistemas unix (linux ou mac)
+#include <windows.h>// windows
+#include <unistd.h>// unix (linux ou mac)
 #include <time.h>
 
 //Rev01
